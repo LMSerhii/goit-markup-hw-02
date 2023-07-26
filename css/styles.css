@@ -27,15 +27,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-} */
-
 .list {
   list-style: none;
 }
@@ -75,9 +66,13 @@ ul {
   color: var(--primary-brand-color);
 }
 
-.contacts .link {
+.address {
   font-style: normal;
-  color: var(--primary-font);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--primary-brand-color);
 }
 
 /* footer */
@@ -102,7 +97,7 @@ ul {
 .footer-content {
   color: var(--ligh-color);
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 /* main-content */
@@ -117,7 +112,12 @@ ul {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.02em;
+}
+
+.heroe-btn {
+  background-color: var(--pressed-state-color);
+  color: var(--white-background-color);
 }
 
 .themes-title {
@@ -129,7 +129,7 @@ ul {
 }
 
 .themes-text {
-  color: var(--dark-color);
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -181,7 +181,6 @@ ul {
   font-size: 16px;
   border-radius: 4px;
   background-color: var(--ligh-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -198,7 +197,8 @@ ul {
 .item-title {
   color: var(--dark-color);
   font-size: 20px;
-  line-height: 1.2;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
