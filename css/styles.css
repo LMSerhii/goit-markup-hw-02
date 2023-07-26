@@ -33,6 +33,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 /* local-settings */
