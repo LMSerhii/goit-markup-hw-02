@@ -23,8 +23,6 @@ body {
   font-family: var(--primary-font);
   color: var(--text-color);
   background-color: var(--white-background-color);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .list {
@@ -132,19 +130,18 @@ body {
   background-color: var(--primary-brand-color);
 }
 
-
-.themes-title {
+.themes .themes-title {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.themes-text {
+.themes .themes-text {
   color: var(--text-color);
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -210,7 +207,7 @@ body {
   color: var(--dark-color);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -218,6 +215,6 @@ body {
   color: var(--text-color);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
