@@ -117,22 +117,34 @@ body {
 }
 
 .heroe-btn {
+  font-family: var(--primary-font);
   background-color: var(--pressed-state-color);
   color: var(--white-background-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
+
+.heroe-btn:hover,
+.heroe-btn:focus {
+  background-color: var(--primary-brand-color);
+}
+
 
 .themes-title {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .themes-text {
   color: var(--text-color);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -180,7 +192,6 @@ body {
 .btn {
   font-family: var(--primary-font);
   font-size: 16px;
-  border-radius: 4px;
   background-color: var(--ligh-color);
   font-weight: 500;
   line-height: 1.5;
