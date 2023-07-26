@@ -31,7 +31,6 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--text-color);
 }
 
 /* local-settings */
@@ -60,13 +59,17 @@ body {
   letter-spacing: 0.02em;
 }
 
-.link:hover,
-.link:focus {
+.page-nav:hover,
+.page-nav:focus {
   color: var(--primary-brand-color);
 }
 
 .address {
   font-style: normal;
+}
+
+.address .link {
+  color: var(--text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -132,7 +135,7 @@ body {
   background-color: var(--primary-brand-color);
 }
 
-.themes .themes-title {
+.themes-title {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 20px;
@@ -140,7 +143,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.themes .themes-text {
+.themes-text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -216,7 +219,6 @@ body {
 .item-text {
   color: var(--text-color);
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
