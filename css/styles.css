@@ -1,9 +1,9 @@
 :root {
-  /* fonts */
+  /* Fonts */
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
-  /* colors */
+  /* Colors */
   --pressed-state-color: #4d5ae5; /* IRIS */
   --primary-brand-color: #404bbf; /* OCEAN */
   --dark-color: #2e2f42; /* NAVYBLUE */
@@ -18,7 +18,11 @@
   --modal-background-color: #fcfcfc; /* DAIRY */
 }
 
-/* global-settings */
+/*
+   |==================================
+   |  Basic styles
+   |==================================
+*/
 body {
   font-family: var(--primary-font);
   color: var(--text-color);
@@ -33,11 +37,13 @@ body {
   text-decoration: none;
 }
 
-/* local-settings */
+/*
+   |==================================
+   |  Logo
+   |==================================
+*/
 
-/* header */
-
-.logo.link {
+.logo {
   font-family: var(--secondary-font);
   color: var(--pressed-state-color);
   font-size: 18px;
@@ -47,11 +53,21 @@ body {
   text-transform: uppercase;
 }
 
-.logo-span {
+.logo-dark {
   color: var(--dark-color);
 }
 
-.page-nav {
+.logo-light {
+  color: var(--ligh-color);
+}
+
+/*
+   |==================================
+   |  Header
+   |==================================
+*/
+
+.header-nav-item {
   color: var(--dark-color);
   font-size: 16px;
   font-weight: 500;
@@ -59,52 +75,47 @@ body {
   letter-spacing: 0.02em;
 }
 
-.page-nav:hover,
-.page-nav:focus {
+.header-nav-item:hover,
+.header-nav-item:focus {
   color: var(--primary-brand-color);
 }
 
-.address {
+
+.header-address {
   font-style: normal;
 }
 
-.address .link {
+.header-address-item {
   color: var(--text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.address .link:hover,
-.address .link:focus {
+.header-address-item:hover,
+.header-address-item:focus {
   color: var(--primary-brand-color);
 }
 
-/* footer */
+/*
+   |==================================
+   |  Footer
+   |==================================
+*/
 .footer {
   background-color: var(--dark-color);
 }
 
-.footer-logo {
-  font-family: var(--secondary-font);
-  color: var(--pressed-state-color);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.footer-logo-span {
-  color: var(--ligh-color);
-}
-
-.footer-content {
+.footer-text {
   color: var(--ligh-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* main-content */
+/*
+   |==================================
+   |  Index styles
+   |==================================
+*/
 
 .heroe {
   background-color: var(--hero-background-color);
@@ -191,7 +202,13 @@ body {
   letter-spacing: 0.02em;
 }
 
-.btn {
+/*
+   |==================================
+   |  Portfolio styles
+   |==================================
+*/
+
+.filters-btn {
   font-family: var(--primary-font);
   font-size: 16px;
   background-color: var(--ligh-color);
@@ -202,13 +219,13 @@ body {
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.filters-btn:hover,
+.filters-btn:focus {
   background-color: var(--primary-brand-color);
   color: var(--white-background-color);
 }
 
-.item-title {
+.product-title {
   color: var(--dark-color);
   font-size: 20px;
   font-weight: 500;
@@ -216,7 +233,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.item-text {
+.product-text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
